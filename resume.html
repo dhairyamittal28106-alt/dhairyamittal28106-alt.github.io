@@ -1,22 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume | Dhairya Mittal</title>
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h2 class="page-title">Resume</h2>
+<nav class="navbar">
+  <h1>Dhairya</h1>
+  <div class="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="resume.html" class="active">Resume</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="theme-toggle">Toggle Theme</button>
+</nav>
 
-<section class="card">
-  <h3>Education</h3>
-  <p>B.Tech Computer Science</p>
+<section class="page">
+  <h2>Resume</h2>
+
+  <div class="resume-section">
+    <div>
+      <div class="resume-item">
+        <h3>Education</h3>
+        <p>B.Tech Computer Science</p>
+        <p>2022 - Present</p>
+      </div>
+
+      <div class="resume-item">
+        <h3>Skills</h3>
+        <p>HTML, CSS, JavaScript, Git, GitHub</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="resume-item">
+        <h3>Experience</h3>
+        <p>Web Developer Intern</p>
+        <p>Worked on modern UI and responsive websites.</p>
+      </div>
+
+      <div class="resume-item">
+        <h3>Projects</h3>
+        <p>Portfolio Website</p>
+        <p>Weather App</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="card">
-  <h3>Skills</h3>
-  <p>HTML, CSS, JavaScript, GitHub</p>
-</section>
-
+<script src="js/main.js"></script>
 </body>
 </html>
